@@ -10,6 +10,9 @@ export const HomeScreen = ({navigation}) =>{
 
              <Button title='Ir para Help'
              onPress={() => navigation.navigate("Help")}></Button>  
+
+              <Button title='Ir para Config'
+             onPress={() => navigation.navigate("Config")}></Button>  
            </View>
            
            
