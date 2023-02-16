@@ -5,15 +5,17 @@ export const styles = StyleSheet.create({
         flex:1,
         justifyContent:"center",
         alignItems:"center",
-        backgroundColor: "#708090",
+        backgroundColor: "#4682B4",
         alignSelf:"auto",
-        marginTop:""
-    },
-    h1:{
-        fontSize:"30px",
-        fontFamily:"sans-serif "
+        marginTop:"",
+        gap:"15px",
+        alignItems:"center",
     },
    
 
+    Form :{
+        alignItems:"center",
+    },
     
+  
 })
