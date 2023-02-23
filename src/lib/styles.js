@@ -9,9 +9,18 @@ export const styles = StyleSheet.create({
         alignSelf:"auto",
         marginTop:"",
         gap:"15px",
-        alignItems:"center",
     },
    
+
+    jogos:{
+        flex:1,
+        justifyContent:"center",
+        alignItems:"center",
+        backgroundColor: "#4682B4",
+        alignSelf:"auto",
+        gap:"15px",
+        marginBottom:"5",
+    },
 
     Form :{
         alignItems:"center",
