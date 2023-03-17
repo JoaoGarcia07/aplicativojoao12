@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         marginTop:"",
         gap:"15px",
     },
-   
+
 
     jogos:{
         flex:1,
@@ -25,6 +25,32 @@ export const styles = StyleSheet.create({
     Form :{
         alignItems:"center",
     },
-    
+
+        container1: {
+          display: 'flex',
+          flexDirection: 'row',
+          height: '100%',
+          backgroundColor: '#f5f5f5'
+        },
+        gamesList: {
+          flex: 1,
+          padding: 16
+        },
+        title: {
+          fontSize: 24,
+          fontWeight: 'bold',
+          marginBottom: 16
+        },
+        game: {
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          marginBottom: 16
+        },
+        gameImage: {
+          width: 80,
+          height
+        },
+      
   
 })
